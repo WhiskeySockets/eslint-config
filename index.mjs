@@ -3,7 +3,7 @@ import typescriptEslint from "@typescript-eslint/eslint-plugin";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
 import tsParser from "@typescript-eslint/parser";
 
-export default defineConfig([globalIgnores([]), {
+export default defineConfig([{
     plugins: {
         "@typescript-eslint": typescriptEslint,
         "simple-import-sort": simpleImportSort,
